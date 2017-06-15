@@ -1,10 +1,13 @@
 (function (global) {
 	console.log('Executed main');
-	var homeurl = "snippets/home-snippet.html";
-	var listrecipesurl = "../resources/recipes/listrecipes.json";
-	var recipeBaseUrl = "../resources/recipes/";
-	var recipeTileSnippet = "snippets/recipetile.html";
-	var recipeItemSnippet = "snippets/recipe.html";
+	// Set this to blank when testing localy because github pages is weird with relative paths.
+	// You don't need this if you are not publishing to github pages
+	var basesitename="/modernindian";
+	var homeurl = basesitename + "/snippets/home-snippet.html";
+	var listrecipesurl = basesitename + "/resources/recipes/listrecipes.json";
+	var recipeBaseUrl = basesitename + "/resources/recipes/";
+	var recipeTileSnippet = basesitename + "/snippets/recipetile.html";
+	var recipeItemSnippet = basesitename + "/snippets/recipe.html";
 	
 	// namespace
 	var recipes = {};
@@ -39,6 +42,7 @@
 			var image = recipes[i].img_name;
 			var recipeId = recipes[i].id;
 			var tmpRecipeHtml = recipeHtml;
+			tmpRecipeHtml = insertProperty(tmpRecipeHtml, "basesitename", basesitename);
 			tmpRecipeHtml = insertProperty(tmpRecipeHtml, "name", name);
 			tmpRecipeHtml = insertProperty(tmpRecipeHtml, "img_name", image);
 			tmpRecipeHtml = insertProperty(tmpRecipeHtml, "id", recipeId);
@@ -82,6 +86,7 @@
 		var directionsHtml = buildDirectionsHtml(directions);
 		console.log(directionsHtml);
 		var tmpRecipeHtml = recipeSnippet;
+		tmpRecipeHtml = insertProperty(tmpRecipeHtml, "basesitename", basesitename);
 		tmpRecipeHtml = insertProperty(tmpRecipeHtml, "name", recipe.name);
 		tmpRecipeHtml = insertProperty(tmpRecipeHtml, "img_name", recipe.img_name);
 		tmpRecipeHtml = insertProperty(tmpRecipeHtml, "ingredients", ingredientsHtml);
