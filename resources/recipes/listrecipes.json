@@ -1,0 +1,30 @@
+[
+	{ 
+		"name" : "Tandoori Chicken", 
+		"img_name" : "tandoorichicken_thumbnail",
+		"id" : "tandoorichicken",
+		"source" : "Zeesha Currimbhoy",
+		"category" : "Main Course"
+	},
+	{ 
+		"name" : "Khoja Biryani", 
+		"img_name" : "khoja_biryani_thumbnail",
+		"id" : "khojabiryani",
+		"source" : "Shahenaz Currimbhoy",
+		"category" : "Main Course"
+	},
+	{ 
+		"name" : "Chocolate in a Cloud", 
+		"img_name" : "chocolate_in_a_cloud_thumbnail",
+		"id" : "chocolate_in_a_cloud",
+		"source" : "Shahenaz Currimbhoy",
+		"category" : "Dessert"
+	},
+	{ 
+		"name" : "Paneer Tikka Masala", 
+		"img_name" : "paneer_tikka_masala_thumbnail",
+		"id" : "paneertikkamasala",
+		"source" : "Zeesha Currimbhoy",
+		"category" : "Main Course"
+	}
+]

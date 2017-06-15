@@ -1,0 +1,28 @@
+{
+	"name" : "Biryani (Khoja Style)", 
+	"img_name" : "khoja_biryani",
+	"id" : "khojabiryani",
+	"source" : "Shahenaz Currimbhoy",
+	"category" : "Main Course",
+	"effort" : "Medium",
+	"time" : "1 hr 45 min",
+	"ingredients" : [
+		{ "name":"Mutton","quantity" : "1 lb" },
+		{ "name":"Shan Bombay Biryani masala","quantity":"3 tbsp"},
+		{ "name":"Yogurt", "quantity": "1 cup"},
+		{ "name":"Tomates", "quantity": "1"},
+		{ "name":"Birasta (fried onions)", "quantity" : "1 cup"},
+		{ "name":"Ghee", "quantity" : "1/2 cup + more"},
+		{ "name":"Corriander Leaves", "quantity"  : "handful"},
+		{ "name":"Mint Leaves", "quantity"  : "handful"},
+		{ "name":"Saffron", "quantity"  : "few strands"},
+		{ "name":"Ginger Garlic Green chilli Paste", "quantity"  : "3 tbsp"},
+		{ "name":"Milk", "quantity"  : "1/2 cup"}
+		],
+	"directions" : [
+		{ "description":"Marinate the meat in yogurt, ginger garlic green chilli paste, blanced chopped tomates, crushed birasta, red chilli powder, corriander leaves, mint leaves"},
+		{ "description":"Heat some ghee in a pan and add quartered potatoes (pierce holes in the potatoes first). Let them brown a little and then add to the marinade. In the same pan, add some more ghee and add whole garam masala (1 elaichi, jeera, cinnimon) and add it to the marinade. Let this marinate overnight" },
+		{ "description":"Keep the saffron milk ready - Warm the milk and add some toasted saffron to it (slightly warm it up in a pan and add it to the milk). Let it stand for atleast 10 minutes so it takes color." }
+	
+	]
+}

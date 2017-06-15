@@ -1,0 +1,88 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+#header-nav {
+	border-radius: 0;
+	border-0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #E66929;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#navbar-list li a
+{
+	font-size: 0.8em;
+}
+
+#main-content {
+
+}
+.container-fluid .jumbotron {
+
+	background: url('../images/spices_1200.jpg') no-repeat;
+	height: 600px;
+}
+
+.recipe-tile {
+
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #EFEFEF;
+	background-size: contain;
+}
+
+.recipe-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+.recipe-tile1 {
+	padding:0;
+}
+
+.thumbnail .recipe-caption {
+	background-color: #393939;
+	color:#FFF;
+}
+
+.recipe-box {
+
+}
+.recipe-item-header {
+	font-weight: 300;
+}
+
+#recipe-directions ol {
+	counter-reset: item;
+	list-style-type: none;
+	text-indent: -1em;
+	line-height: 1.45em;
+	padding: 20px;
+}
+#recipe-directions ol li {
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+#recipe-directions ol li:before {
+	display: block;
+	counter-increment: item;
+	content: "Step " counter(item);
+	font-weight: 700;
+	line-height: 1;
+	padding-bottom: 10px;
+}

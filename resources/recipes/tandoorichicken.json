@@ -1,0 +1,29 @@
+{
+	"name" : "Tandoori Chicken", 
+	"img_name" : "tandoorichicken",
+	"id" : "tandoorichicken",
+	"source" : "Zeesha Currimbhoy",
+	"category" : "Main Course",
+	"effort" : "Easy",
+	"time" : "45 min",
+	"ingredients" : [
+		{ "name":"Chicken Leg","quantity" : "4" },
+		{ "name":"Shan tandoori masala","quantity":"1 tbsp"},
+		{ "name":"Red chilli powder (Kashmiri)", "quantity": "1 tbsp"},
+		{ "name":"Turmeric powder", "quantity": "1 tsp"},
+		{ "name":"Corriander Cumin Powder", "quantity" : "2 tsp"},
+		{ "name":"Curd", "quantity" : "2 tbsp"},
+		{ "name":"Kasoori Methi", "quantity"  : "1 tsp"},
+		{ "name":"Besan", "quantity"  : "1 tbsp"},
+		{ "name":"Ajwain", "quantity"  : "1 tsp"},
+		{ "name":"Ginger Garlic Paste", "quantity"  : "1 tbsp"},
+		{ "name":"Salt", "quantity"  : "to taste"}
+		],
+	"directions" : [
+		{ "description":"Wash the chicken legs thoroughly and make slits in them."},
+		{ "description":"<b>Marinade 1:</b> Marinate the chicken legs in a paste of lime juice, red chilli powder, dhania jeera powder and salt making sure that the paste goes in the cuts of the chicken. <br> Let this marinate for atleast 15 minutes" },
+		{ "description":"<b>Marinade 2:</b> Make a second paste of curd, ginger garlic paste, tandoori masala, kasoori methi, lime juice. <br>Heat some oil in a pan and add some ajwain and then some besan. Stir it for a minute just till you get the nutty scent from the flour. Take care not to over stir. Add this roasted flour to the marinade above. <br> Apply this marinade to the chicken coating it well and withiin the slits. Let it marinate for a few hours" },
+		{ "description":"Bake in a 400F oven for a total of 25 minutes. (First 10 minutes, then baste with some oil and turn it over. After another 10 minutes baste it again and flip it over. And the last 5 minutes let it cook on Broil.) <br> Check that it is thoroughly cooked. Remove from oven and let it stand for a few minutes before serving"},
+		{ "description":"Sprinkle some chaat masala and lemon juice and serve hot" }		
+	]
+}
